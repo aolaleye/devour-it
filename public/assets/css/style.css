@@ -67,3 +67,7 @@ input::placeholder {
     font-style: italic;
     text-align: center;
 }
+
+.disabled {
+    background: lightgray;
+}
