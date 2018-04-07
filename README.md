@@ -1,6 +1,6 @@
-# Restaurant
+# devourIT
 
-#### This restaurant app creates a burger logger with MySQL, Node.js, Express.js, Handlebars.js and an ORM. It uses Node and MySQL to query and route data to the app, and Handlebars to generate HTML.
+#### devourIT is an app that creates a burger logger with MySQL, Node.js, Express.js, Handlebars.js and an ORM. It uses Node and MySQL to query and route data to the app, and Handlebars to generate HTML.
 
 * This app allows users to input the names of burgers they'd like to eat.
 * Whenever a user submits a burger's name, the app places the burger on the left side of the page -- the waiting room.
@@ -13,4 +13,4 @@
 * `npm i`
 * `node server.js`
 
-#### > Deployed Site: 
+#### > Deployed Site: https://vast-cliffs-51940.herokuapp.com/index
