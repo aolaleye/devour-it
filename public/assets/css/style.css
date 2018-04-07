@@ -17,7 +17,7 @@ body {
 }
 
 .jumbotron .form-group {
-    margin: 0 200px;
+    margin: 0 80px;
 }
 
 .waiting,
@@ -70,4 +70,11 @@ input::placeholder {
 
 .disabled {
     background: lightgray;
+}
+
+
+@media screen and (min-width: 760px) {
+    .jumbotron .form-group {
+        margin: 0 200px;
+    }
 }
