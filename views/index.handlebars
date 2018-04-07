@@ -3,22 +3,22 @@
 <h2>Not Devoured</h2>
 
 <ul>
-  {{#each cats}}
-    {{#unless sleepy}}
-      {{> cats/cat-block sleep=true}}
+  {{#each burgers}}
+    {{#unless devoured}}
+      {{> burgers/burger-block devour=true}}
     {{/unless}}
-    <button data-id="{{this.id}}" class="deletecat">Delete</button>
+    <button data-id="{{this.id}}" class="deleteburger">Delete</button>
   {{/each}}
 </ul>
 
 <h2>Devoured</h2>
 
 <ul>
-  {{#each cats}}
-    {{#if sleepy}}
-      {{> cats/cat-block sleep=false}}
+  {{#each burgers}}
+    {{#if devoured}}
+      {{> burgers/burger-block devour=false}}
     {{/if}}
-    <button data-id="{{this.id}}" class="deletecat">Delete</button>
+    <button data-id="{{this.id}}" class="deleteburger">Delete</button>
   {{/each}}
 </ul>
 
@@ -26,15 +26,15 @@
 <form class="create-form">
 
   <div class="form-group">
-    <label for="ca">Cat Name:</label>
+    <label for="newBurger">Burger Name:</label>
     <input type="text" id="ca" name="name">
   </div>
 
   <div class="form-group">
-    <label for="slee">Sleepy?</label><br>
-    <input type="radio" name="sleepy" value="1" checked> Sleepy!<br>
-    <input type="radio" name="sleepy" value="0"> Awake
+    <label for="devour">Devoured?</label><br>
+    <input type="radio" name="devoured" value="1" checked> Devoured!<br>
+    <input type="radio" name="devoured" value="0"> Not Yet Devoured
   </div>
 
-  <button type="submit">Add Cat</button>
+  <button type="submit">Add Burger</button>
 </form>

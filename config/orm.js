@@ -22,29 +22,29 @@ var orm = {
 
       cb(result);
     });
-  }
+  },
 
-  // updateOne: function(tableName, colName, newValue, whereColName, value, cb) {
-  //   var queryString = "UPDATE " + tableName + "  SET ?? WHERE ??";
+  updateOne: function(tableName, colName, newValue, condition, cb) {
+    var queryString = "UPDATE " + tableName + "  SET ?? WHERE ??";
 
-  //   console.log(queryString);
+    console.log(queryString);
 
-  //   connection.query(queryString, 
-  //     [
-  //       {
-  //         colName: newValue
-  //       },
-  //       {
-  //         id: value.id
-  //       }
-  //     ], 
+    connection.query(queryString, 
+      [
+        {
+          colName: newValue
+        },
+        {
+          id: condition
+        }
+      ], 
       
-  //     function(err, result) {
-  //       if (err) throw err;
+      function(err, result) {
+        if (err) throw err;
 
-  //     cb(result);
-  //   });
-  // }
+      cb(result);
+    });
+  }
 
 };
 
