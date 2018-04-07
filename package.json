@@ -1,7 +1,7 @@
 {
-  "name": "restaurant",
+  "name": "devour-it",
   "version": "1.0.0",
-  "description": "This restaurant app creates a burger logger with MySQL, Node.js, Express.js, Handlebars.js and an ORM. It uses Node and MySQL to query and route data to the app, and Handlebars to generate HTML.",
+  "description": "devourIT creates a burger logger with MySQL, Node.js, Express.js, Handlebars.js and an ORM. It uses Node and MySQL to query and route data to the app, and Handlebars to generate HTML.",
   "main": "server.js",
   "dependencies": {
     "body-parser": "^1.18.2",
@@ -16,12 +16,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aolaleye/restaurant.git"
+    "url": "git+https://github.com/aolaleye/devour-it.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/aolaleye/restaurant/issues"
+    "url": "https://github.com/aolaleye/devour-it/issues"
   },
-  "homepage": "https://github.com/aolaleye/restaurant#readme"
+  "homepage": "https://github.com/aolaleye/devour-it#readme"
 }
