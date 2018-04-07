@@ -2,7 +2,7 @@
     
     <div class="waiting mb-4">
 
-        <h2 class="white">Waiting to be Devoured</h2>
+        <h2 class="white text-left mb-4">Waiting to be Devoured</h2>
         {{#each burgers}} 
           {{#unless this.devoured}}
             <form action="/burgers/eat/{{id}}" method="POST">
@@ -20,7 +20,7 @@
 
     <div class="devoured">
         
-        <h2 class="white">Devoured</h2>
+        <h2 class="white text-left mb-4">Devoured</h2>
         {{#each burgers}} 
           {{#if this.devoured}}
             <div class="input-group">
