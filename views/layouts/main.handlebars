@@ -1,13 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-		<link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
-		<title>MVC With Cats!</title>
-		<script src="https://code.jquery.com/jquery.js"></script>
-		<script src="/assets/js/cats.js"></script>
-	</head>
-	<body>
-		{{{ body }}}
-	</body>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Eat-Da-Burger</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./assets/css/burger_style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Eat-Da-Burger</h1>
+                {{!-- <img src="./assets/image/burger.png" class="center"> --}}
+            </div>
+        </div>
+        <br>
+        <div class="row ">
+            <div class="col-md"></div>
+            <div class="col-md-4">
+                <form action="/burgers/create" method="POST">
+                    <div class="form-group">
+                        <strong>
+                            <label for="new_burger">Place Your Burger Order:</label>
+                        </strong>
+                        <input type="text" class="form-control" name="burger_name"></input>
+                        <button type="submit" class="btn btn-danger create">Place Order!</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md"></div>
+        </div>
+        {{{body}}}
+    </div>
+
+</body>
+
 </html>
