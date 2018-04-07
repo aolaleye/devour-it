@@ -1,0 +1,67 @@
+body {
+    background-color: #a2d8f2;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.jumbotron {
+    background-color: #a2d8f2;
+}
+
+.devourit {
+    font-size: 4em;
+    font-family: 'Bevan', cursive;
+    box-shadow: 0px 1px 5px 5px #fff;
+    padding: 10px 0;
+    background: #1d699e;
+    color: white;
+}
+
+.jumbotron .form-group {
+    margin: 0 200px;
+}
+
+.waiting,
+.devoured {
+    border: 4px solid #1d699e;
+    padding: 20px;
+    background: #1d699e;
+    border-radius: 5px;
+}
+
+.white {
+    color: white;
+}
+
+.input-group,
+.form-control {
+    border-radius: 0;
+}
+
+.input-group {
+    margin-bottom: 2px;
+    padding: 5px;
+}
+
+.form-control {
+    padding: 10px;
+}
+
+.btn {
+    padding: 13px 20px 7px 20px;
+    border-radius: 0;
+    box-shadow: inset 0px 1px 20px 0px #345e82;
+}
+
+.add {
+    margin-top: 10px;
+    padding: 10px 20px 5px 20px;
+}
+
+.btn:hover {
+    background: lightgray;
+}
+
+input::placeholder {
+    font-style: italic;
+    text-align: center;
+}
