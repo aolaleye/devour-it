@@ -14,4 +14,7 @@
 * `npm i`
 * `node server.js`
 
-#### > Deployed Site: https://vast-cliffs-51940.herokuapp.com/index
+<!-- #### > Deployed Site: https://vast-cliffs-51940.herokuapp.com/index -->
+
+#### > __Try it Out:__
+[![devourIT](public/assets/devourit.png)](https://vast-cliffs-51940.herokuapp.com/index)
