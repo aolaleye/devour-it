@@ -1,7 +1,8 @@
 # devourIT
 
-#### devourIT is an app that creates a burger logger with MySQL, Node.js, Express.js, Handlebars.js and an ORM. It uses Node and MySQL to query and route data to the app, and Handlebars to generate HTML.
+This app creates a burger logger with MySQL, Node.js, Express.js, Handlebars.js and an ORM. It uses Node and MySQL to query and route data to the app, and Handlebars to generate HTML.
 
+#### Overview:
 * This app allows users to input the names of burgers they'd like to eat.
 * Whenever a user submits a burger's name, the app places the burger in the "Waiting" section.
 * Each burger in the waiting section has a DEVOUR button. 
@@ -16,5 +17,5 @@
 
 <!-- #### > Deployed Site: https://vast-cliffs-51940.herokuapp.com/index -->
 
-#### > __Try it Out:__
+#### > __Click Below to Try it Out:__
 [![devourIT](public/assets/devourit.png)](https://vast-cliffs-51940.herokuapp.com/index)
